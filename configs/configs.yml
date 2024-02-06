@@ -1,0 +1,28 @@
+# {
+#     "server": {
+#         "port": ":3000",
+#         "host": "http://127.0.0.1"
+#     },
+#     "logger": {
+#         "level": "debug",
+#         "filename": "./app.log"
+#     },
+#     "database": {
+#         "migration": "postgres://postgres:postgres@localhost:5432/stol_db?sslmode=disable",
+#         "casbin": "postgres://postgres:postgres@localhost:5432/stol_db?sslmode=disable",
+#         "dns": "user=postgres password=postgres dbname=stol_db host=localhost port=5432"
+#     }
+# # 
+
+# Path: configs/configs.go
+ 
+ server:
+    port: ":3000"
+    host: "http://127.0.0.1"
+logger:
+    level: "debug"
+    filename: "./app.log"
+database:
+    migration: "postgres://postgres:xxxxxxxx@xxxxxxxxx:5432/stol_db?sslmode=disable"
+    casbin: "postgres://postgres:xxxxxxxx@xxxxxxxxx:5432/stol_db?sslmode=disable"
+    dns: "user=postgres password=xxxxxxxx dbname=stol_db host=xxxxxxxx port=5432"
